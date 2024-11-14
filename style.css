@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.heading {
+    background-color: rgba(0, 128, 87, 0.941);
+    padding: 15px;
+    color: white;
+    margin-left: 5px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 950px  auto;
+    height: 800px;
+    margin-left: 7px;
+}
+
+
+.containr1 {
+
+    height: 750px;
+    width: 98%;
+    background-color: rgba(0, 0, 0, 0.053);
+    border: 1px solid rgba(0, 0, 0, 0.265);
+    border-left: none;
+}
+
+.containr1 input {
+
+    padding: 10px;
+    margin-left: 5px;
+    margin-top: 10px;
+    outline: none;
+    cursor: auto;
+  
+}
+
+.div1  {
+    height: 100px;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.228);
+    background-color: rgba(255, 255, 255, 0.936);
+    border-left: none;
+}
+
+
+.container2 {
+    height: 670px;
+    width: 100%;
+    /* background-color: gray; */
+    margin-top: 80px;
+
+}
+
+
+.buttom {
+    padding: 10px;
+    background-color: rgba(0, 21, 255, 0.747);
+    margin-left: 5px;
+    margin-top: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+.container2 .header {
+    font-size: 25px;
+}
+
+.container2 button {
+    float: right;
+    background-color: rgba(0, 21, 255, 0.635);
+    padding: 10px;
+    width: 100px;
+    color: white; 
+    margin-top: 10px;
+    margin-right: 190px;
+    cursor: pointer;
+   
+}
+
+p {
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.welcome {
+    margin-left: 100px;
+}
+
+.inp {
+    padding: 10px;
+    margin-left: 100px;
+    margin-top: 40px;
+    display: inline-block;
+    outline: none;
+
+}
+
+
+textarea {
+    height: 200px;
+    width: 800px;
+    margin-left: 100px;
+    margin-top: 20px;
+    outline: none;
+    display: block;
+}
+
+
+
+/* Responsive */
+
+
+@media only screen and (max-width: 600px) {
+   
+  }
